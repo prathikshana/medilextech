@@ -5,11 +5,10 @@ from dotenv import load_dotenv
 import json
 from datetime import datetime
 
-# Load environment variables
-load_dotenv()
+
 
 # Configuration
-API_KEY = os.getenv("GEMINI_API_KEY")
+API_KEY = "AIzaSyDamjarOk0mM1E2eInflLsZYefGHaLqoWg"
 MODEL = 'gemini-1.5-pro'
 BASE_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent?key={API_KEY}"
 
